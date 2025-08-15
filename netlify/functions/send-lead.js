@@ -1,9 +1,8 @@
-const { Resend } = require('resend');
+import { Resend } from 'resend';
 
-// Initialize Resend client with API key from environment variable
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-exports.handler = async (event) => {
+export const handler = async (event) => {
   if (event.httpMethod !== 'POST') {
     return { statusCode: 405, body: 'Method Not Allowed' };
   }

@@ -22,10 +22,9 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Replace this URL with your Google Apps Script web app URL
-    const GOOGLE_SCRIPT_URL = '/.netlify/functions/send-lead'; // Netlify Function endpoint
+    const NETLIFY_FUNCTION_URL = '/.netlify/functions/send-lead';
     
-    fetch(GOOGLE_SCRIPT_URL, {
+    fetch(NETLIFY_FUNCTION_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
