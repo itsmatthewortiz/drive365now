@@ -22,23 +22,24 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const NETLIFY_FUNCTION_URL = '/.netlify/functions/send-lead';
+    const N8N_WEBHOOK_URL = 'https://your-n8n-instance.com/webhook/drive365-leads';
     
-    fetch(NETLIFY_FUNCTION_URL, {
+    fetch(N8N_WEBHOOK_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(formData)
     })
-    .then(response => response.json())
-    .then(data => {
-      if (data.success) {
-        alert('Thank you for your message! We\'ll get back to you soon.');
-        setFormData({ name: '', email: '', phone: '', message: '', vehicleYear: '', vehicleMake: '', vehicleModel: '' });
-      } else {
-        alert('There was an error submitting your form. Please try again.');
+    .then(response => {
+      if (response.ok) {
+        return response.json();
       }
+      throw new Error('Network response was not ok');
+    })
+    .then(data => {
+      alert('Thank you for your message! We\'ll get back to you soon.');
+      setFormData({ name: '', email: '', phone: '', message: '', vehicleYear: '', vehicleMake: '', vehicleModel: '' });
     })
     .catch(error => {
       console.error('Error:', error);
