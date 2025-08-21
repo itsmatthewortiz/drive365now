@@ -5,17 +5,17 @@ const Testimonials = () => {
   const testimonialMedia = [
     {
       type: 'image',
-      src: '/img_0826 copy copy copy copy.jpeg',
+      src: 'assets/V1.png',
       alt: 'Happy customer with their new car',
     },
     {
       type: 'image',
-      src: '/img_1244.jpeg',
+      src: 'assets/V2.png',
       alt: 'Customer testimonial',
     },
     {
       type: 'image',
-      src: '/image copy copy copy copy copy copy copy copy copy copy.png',
+      src: 'assets/V3.png',
       alt: 'Customer receiving car keys',
     }
   ];
