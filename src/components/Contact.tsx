@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const N8N_WEBHOOK_URL = 'https://your-n8n-instance.com/webhook/drive365-leads';
+    const N8N_WEBHOOK_URL = 'https://growth-helix.app.n8n.cloud/webhook/drive365-leads';
     
     fetch(N8N_WEBHOOK_URL, {
       method: 'POST',
