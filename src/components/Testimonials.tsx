@@ -41,17 +41,17 @@ const Testimonials = () => {
   const thirdRowMedia = [
     {
       type: 'image',
-      src: '/img_1884.jpeg',
+      src: 'assets/V7.jpeg',
       alt: 'Customer satisfaction testimonial',
     },
     {
       type: 'image',
-      src: '/img_0764.jpeg',
+      src: 'assets/V8.jpeg',
       alt: 'Drive365 brand testimonial',
     },
     {
       type: 'image',
-      src: '/img_2052.jpeg',
+      src: 'assets/V9.jpeg',
       alt: 'Premium vehicle delivery',
     }
   ];
