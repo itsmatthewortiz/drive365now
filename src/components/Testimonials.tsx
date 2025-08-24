@@ -23,17 +23,17 @@ const Testimonials = () => {
   const additionalMedia = [
     {
       type: 'image',
-      src: 'public/assets/V4.jpeg',
+      src: '/assets/V4.jpeg',
       alt: 'Happy customer testimonial',
     },
     {
       type: 'image',
-      src: 'public/assets/V5.jpeg',
+      src: '/assets/V5.jpeg',
       alt: 'Happy customer with their vehicle',
     },
     {
       type: 'image',
-      src: 'public/assets/V6.jpeg',
+      src: '/assets/V6.jpeg',
       alt: 'Happy customer with new car',
     }
   ];
@@ -41,17 +41,17 @@ const Testimonials = () => {
   const thirdRowMedia = [
     {
       type: 'image',
-      src: 'public/assets/V7.jpeg',
+      src: '/assets/V7.jpeg',
       alt: 'Customer satisfaction testimonial',
     },
     {
       type: 'image',
-      src: 'public/assets/V8.jpeg',
+      src: '/assets/V8.jpeg',
       alt: 'Drive365 brand testimonial',
     },
     {
       type: 'image',
-      src: 'public/assets/V9.jpeg',
+      src: '/assets/V9.jpeg',
       alt: 'Premium vehicle delivery',
     }
   ];
