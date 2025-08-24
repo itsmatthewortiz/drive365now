@@ -5,17 +5,17 @@ const Testimonials = () => {
   const testimonialMedia = [
     {
       type: 'image',
-      src: '/assets/V1.png',
+      src: 'https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Happy customer with their new car',
     },
     {
       type: 'image',
-      src: '/assets/V2.png',
+      src: 'https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Customer testimonial',
     },
     {
       type: 'image',
-      src: '/assets/V3.png',
+      src: 'https://images.pexels.com/photos/1319839/pexels-photo-1319839.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Customer receiving car keys',
     }
   ];
@@ -23,17 +23,17 @@ const Testimonials = () => {
   const additionalMedia = [
     {
       type: 'image',
-      src: '/assets/V4.jpeg',
+      src: 'https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Happy customer testimonial',
     },
     {
       type: 'image',
-      src: '/assets/V5.jpeg',
+      src: 'https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Happy customer with their vehicle',
     },
     {
       type: 'image',
-      src: '/assets/V6.jpeg',
+      src: 'https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Happy customer with new car',
     }
   ];
@@ -41,17 +41,17 @@ const Testimonials = () => {
   const thirdRowMedia = [
     {
       type: 'image',
-      src: '/assets/V7.jpeg',
+      src: 'https://images.pexels.com/photos/1319839/pexels-photo-1319839.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Customer satisfaction testimonial',
     },
     {
       type: 'image',
-      src: '/assets/V8.jpeg',
+      src: 'https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Drive365 brand testimonial',
     },
     {
       type: 'image',
-      src: '/assets/V9.jpeg',
+      src: 'https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=800',
       alt: 'Premium vehicle delivery',
     }
   ];
