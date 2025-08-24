@@ -5,54 +5,54 @@ const Testimonials = () => {
   const testimonialMedia = [
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Happy customer with their new car',
+      src: '/Drive 365 Logo White Stacked 2025 V1 copy.png',
+      alt: 'Drive365 customer testimonial',
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Customer testimonial',
+      src: '/image copy copy copy copy copy.png',
+      alt: 'Drive365 customer experience',
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/1319839/pexels-photo-1319839.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Customer receiving car keys',
+      src: '/image copy copy copy.png',
+      alt: 'Drive365 satisfied customer',
     }
   ];
 
   const additionalMedia = [
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Happy customer testimonial',
+      src: '/img_0826 copy copy copy copy.jpeg',
+      alt: 'Drive365 vehicle delivery',
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Happy customer with their vehicle',
+      src: '/IMG_0764.jpeg',
+      alt: 'Drive365 customer satisfaction',
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Happy customer with new car',
+      src: '/IMG_0034.jpeg',
+      alt: 'Drive365 premium service',
     }
   ];
 
   const thirdRowMedia = [
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/1319839/pexels-photo-1319839.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Customer satisfaction testimonial',
+      src: '/1C13303E-7A7D-444C-8E76-6B0E06B6975D.jpeg',
+      alt: 'Drive365 testimonial',
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Drive365 brand testimonial',
+      src: '/IMG_1244.jpeg',
+      alt: 'Drive365 customer review',
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=800',
-      alt: 'Premium vehicle delivery',
+      src: '/IMG_2052.jpeg',
+      alt: 'Drive365 happy customer',
     }
   ];
 
