@@ -5,7 +5,7 @@ const Testimonials = () => {
   const testimonialMedia = [
     {
       type: 'image',
-      src: '/Drive 365 Logo White Stacked 2025 V1 copy.png',
+      src: '/IMG_1884.jpeg',
       alt: 'Drive365 customer testimonial',
     },
     {
